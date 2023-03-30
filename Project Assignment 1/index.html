@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator App</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+  
+  <div class="app mx-auto pb-md-5 my-lg-5">
+    <div class="display pt-3 pb-4 pb-md-3 px-4 text-end g-2">
+      <div class="d-flex justify-content-center pb-4">
+        <button type="button" class="btn btn-small btn-outline-light toggle-theme">Light mode</button>
+      </div>
+      <div class="sub-result">
+        0
+      </div>
+      <div class="result fw-bold">
+        0
+      </div>
+    </div>
+    <div class="container">
+      <div class="row row-cols-4 g-4 mt-2 px-4">
+        <div class="col">
+          <div class="input all-clear">AC</div>
+        </div>
+        <div class="col">
+          <div class="input negative">+/-</div>
+        </div>
+        <div class="col">
+          <div class="input percent">%</div>
+        </div>
+        <div class="col">
+          <div class="input add">&#43;</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold">7</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold">8</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold">9</div>
+        </div>
+        <div class="col">
+          <div class="input multiply">&#215;</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold">4</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold">5</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold">6</div>
+        </div>
+        <div class="col">
+          <div class="input substract">&#8722;</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold">1</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold">2</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold">3</div>
+        </div>
+        <div class="col">
+          <div class="input divide">&#247;</div>
+        </div>
+        <div class="col">
+          <div class="input clear">C</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold">0</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold comma">&#183;</div>
+        </div>
+        <div class="col">
+          <div class="input fw-bold equal">=</div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
